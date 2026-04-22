@@ -1,0 +1,772 @@
+[
+  {
+    "id": 1,
+    "name": "Reptile",
+    "description": null
+  },
+  {
+    "id": 2,
+    "name": "Mythical Beast",
+    "description": null
+  },
+  {
+    "id": 3,
+    "name": "Angel",
+    "description": null
+  },
+  {
+    "id": 4,
+    "name": "Amphibian",
+    "description": null
+  },
+  {
+    "id": 5,
+    "name": "Giant Bird",
+    "description": null
+  },
+  {
+    "id": 6,
+    "name": "Slime",
+    "description": null
+  },
+  {
+    "id": 7,
+    "name": "Cyborg",
+    "description": null
+  },
+  {
+    "id": 8,
+    "name": "Fallen Angel",
+    "description": null
+  },
+  {
+    "id": 9,
+    "name": "Mammal",
+    "description": null
+  },
+  {
+    "id": 10,
+    "name": "Beast",
+    "description": null
+  },
+  {
+    "id": 11,
+    "name": "Mutation",
+    "description": null
+  },
+  {
+    "id": 12,
+    "name": "Flame",
+    "description": null
+  },
+  {
+    "id": 13,
+    "name": "Puppet",
+    "description": null
+  },
+  {
+    "id": 14,
+    "name": "Mollusk",
+    "description": null
+  },
+  {
+    "id": 15,
+    "name": "Lesser",
+    "description": null
+  },
+  {
+    "id": 16,
+    "name": "Dinosaur",
+    "description": null
+  },
+  {
+    "id": 17,
+    "name": "Space Alien",
+    "description": null
+  },
+  {
+    "id": 18,
+    "name": "Insectivorous Plant",
+    "description": null
+  },
+  {
+    "id": 19,
+    "name": "Plant",
+    "description": null
+  },
+  {
+    "id": 20,
+    "name": "Aquatic",
+    "description": null
+  },
+  {
+    "id": 21,
+    "name": "Aquatic Mammal",
+    "description": null
+  },
+  {
+    "id": 22,
+    "name": "Ice-Snow",
+    "description": null
+  },
+  {
+    "id": 23,
+    "name": "Undead",
+    "description": null
+  },
+  {
+    "id": 24,
+    "name": "Skeleton",
+    "description": null
+  },
+  {
+    "id": 25,
+    "name": "Insect",
+    "description": null
+  },
+  {
+    "id": 26,
+    "name": "Archangel",
+    "description": null
+  },
+  {
+    "id": 27,
+    "name": "Ancient Crustacean",
+    "description": null
+  },
+  {
+    "id": 28,
+    "name": "Ghost",
+    "description": null
+  },
+  {
+    "id": 29,
+    "name": "Beast Man",
+    "description": null
+  },
+  {
+    "id": 30,
+    "name": "Ancient Fish",
+    "description": null
+  },
+  {
+    "id": 31,
+    "name": "Dragon Man",
+    "description": null
+  },
+  {
+    "id": 32,
+    "name": "Aquatic Beast Man",
+    "description": null
+  },
+  {
+    "id": 33,
+    "name": "Composite",
+    "description": null
+  },
+  {
+    "id": 34,
+    "name": "Evil Dragon",
+    "description": null
+  },
+  {
+    "id": 35,
+    "name": "Perfect",
+    "description": null
+  },
+  {
+    "id": 36,
+    "name": "Small Devil",
+    "description": null
+  },
+  {
+    "id": 37,
+    "name": "Shellfish",
+    "description": null
+  },
+  {
+    "id": 38,
+    "name": "Crustacean",
+    "description": null
+  },
+  {
+    "id": 39,
+    "name": "Ancient Beast",
+    "description": null
+  },
+  {
+    "id": 40,
+    "name": "Fairy",
+    "description": null
+  },
+  {
+    "id": 41,
+    "name": "Machine",
+    "description": null
+  },
+  {
+    "id": 42,
+    "name": "Dark Dragon",
+    "description": null
+  },
+  {
+    "id": 43,
+    "name": "Rare Beast",
+    "description": null
+  },
+  {
+    "id": 44,
+    "name": "Ankylosaur",
+    "description": null
+  },
+  {
+    "id": 45,
+    "name": "Invade",
+    "description": null
+  },
+  {
+    "id": 46,
+    "name": "Oni",
+    "description": null
+  },
+  {
+    "id": 47,
+    "name": "Mutant",
+    "description": null
+  },
+  {
+    "id": 48,
+    "name": "Holy Beast",
+    "description": null
+  },
+  {
+    "id": 49,
+    "name": "Bulb",
+    "description": null
+  },
+  {
+    "id": 50,
+    "name": "Ceratopsian",
+    "description": null
+  },
+  {
+    "id": 51,
+    "name": "Mythical Dragon",
+    "description": null
+  },
+  {
+    "id": 52,
+    "name": "Seed",
+    "description": null
+  },
+  {
+    "id": 53,
+    "name": "Marine Beast",
+    "description": null
+  },
+  {
+    "id": 54,
+    "name": "Chick",
+    "description": null
+  },
+  {
+    "id": 55,
+    "name": "Mine",
+    "description": null
+  },
+  {
+    "id": 56,
+    "name": "Ore",
+    "description": null
+  },
+  {
+    "id": 57,
+    "name": "Mineral",
+    "description": null
+  },
+  {
+    "id": 58,
+    "name": "Holy Dragon",
+    "description": null
+  },
+  {
+    "id": 59,
+    "name": "Larva",
+    "description": null
+  },
+  {
+    "id": 60,
+    "name": "Species Unknown",
+    "description": null
+  },
+  {
+    "id": 61,
+    "name": "Demon Man",
+    "description": null
+  },
+  {
+    "id": 62,
+    "name": "Ancient",
+    "description": null
+  },
+  {
+    "id": 63,
+    "name": "Plesiosaur",
+    "description": null
+  },
+  {
+    "id": 64,
+    "name": "Bird",
+    "description": null
+  },
+  {
+    "id": 65,
+    "name": "Demon Lord",
+    "description": null
+  },
+  {
+    "id": 66,
+    "name": "Flame Dragon",
+    "description": null
+  },
+  {
+    "id": 67,
+    "name": "Bird Man",
+    "description": null
+  },
+  {
+    "id": 68,
+    "name": "Smoke",
+    "description": null
+  },
+  {
+    "id": 69,
+    "name": "Holy Knight",
+    "description": null
+  },
+  {
+    "id": 70,
+    "name": "Demon Dragon",
+    "description": null
+  },
+  {
+    "id": 71,
+    "name": "Demon Beast",
+    "description": null
+  },
+  {
+    "id": 72,
+    "name": "Warrior",
+    "description": null
+  },
+  {
+    "id": 73,
+    "name": "Rock",
+    "description": null
+  },
+  {
+    "id": 74,
+    "name": "Ancient Bird",
+    "description": null
+  },
+  {
+    "id": 75,
+    "name": "Cherub",
+    "description": null
+  },
+  {
+    "id": 76,
+    "name": "Baby Dragon",
+    "description": null
+  },
+  {
+    "id": 77,
+    "name": "Wicked God",
+    "description": null
+  },
+  {
+    "id": 78,
+    "name": "Stegosaur",
+    "description": null
+  },
+  {
+    "id": 79,
+    "name": "Ocean Dragon",
+    "description": null
+  },
+  {
+    "id": 80,
+    "name": "Small Dragon",
+    "description": null
+  },
+  {
+    "id": 81,
+    "name": "Holy Bird",
+    "description": null
+  },
+  {
+    "id": 82,
+    "name": "Small Bird",
+    "description": null
+  },
+  {
+    "id": 83,
+    "name": "Pterosaur",
+    "description": null
+  },
+  {
+    "id": 84,
+    "name": "Seraph",
+    "description": null
+  },
+  {
+    "id": 85,
+    "name": "Ancient Dragon",
+    "description": null
+  },
+  {
+    "id": 86,
+    "name": "Ancient Dragon Man",
+    "description": null
+  },
+  {
+    "id": 87,
+    "name": "God Man",
+    "description": null
+  },
+  {
+    "id": 88,
+    "name": "Bewitching Beast",
+    "description": null
+  },
+  {
+    "id": 89,
+    "name": "Dark Knight",
+    "description": null
+  },
+  {
+    "id": 90,
+    "name": "Unknown",
+    "description": null
+  },
+  {
+    "id": 91,
+    "name": "Ophan",
+    "description": null
+  },
+  {
+    "id": 92,
+    "name": "Ancient Holy Knight",
+    "description": null
+  },
+  {
+    "id": 93,
+    "name": "Ancient Insect",
+    "description": null
+  },
+  {
+    "id": 94,
+    "name": "Ancient Bird Man",
+    "description": null
+  },
+  {
+    "id": 95,
+    "name": "Ancient Aquatic Beast Man",
+    "description": null
+  },
+  {
+    "id": 96,
+    "name": "Ancient Mythical Beast",
+    "description": null
+  },
+  {
+    "id": 97,
+    "name": "Ancient Plant",
+    "description": null
+  },
+  {
+    "id": 98,
+    "name": "Ancient Mineral",
+    "description": null
+  },
+  {
+    "id": 99,
+    "name": "Ancient Ore",
+    "description": null
+  },
+  {
+    "id": 100,
+    "name": "Ancient Mutation",
+    "description": null
+  },
+  {
+    "id": 101,
+    "name": "Food",
+    "description": null
+  },
+  {
+    "id": 102,
+    "name": "Synthetic Beast",
+    "description": null
+  },
+  {
+    "id": 103,
+    "name": "Card",
+    "description": null
+  },
+  {
+    "id": 104,
+    "name": "Small Angel",
+    "description": null
+  },
+  {
+    "id": 105,
+    "name": "Hybrid",
+    "description": null
+  },
+  {
+    "id": 106,
+    "name": "Dominion",
+    "description": null
+  },
+  {
+    "id": 107,
+    "name": "Demon God",
+    "description": null
+  },
+  {
+    "id": 108,
+    "name": "Magic Warrior",
+    "description": null
+  },
+  {
+    "id": 109,
+    "name": "Navigation",
+    "description": null
+  },
+  {
+    "id": 110,
+    "name": "Artificial Fallen Angel",
+    "description": null
+  },
+  {
+    "id": 111,
+    "name": "Power",
+    "description": null
+  },
+  {
+    "id": 112,
+    "name": "Parasite",
+    "description": null
+  },
+  {
+    "id": 113,
+    "name": "God Beast",
+    "description": null
+  },
+  {
+    "id": 114,
+    "name": "Dragon Warrior",
+    "description": null
+  },
+  {
+    "id": 115,
+    "name": "No Data",
+    "description": null
+  },
+  {
+    "id": 116,
+    "name": "Unanalyzable",
+    "description": null
+  },
+  {
+    "id": 117,
+    "name": "Beast Dragon",
+    "description": null
+  },
+  {
+    "id": 118,
+    "name": "Unique",
+    "description": null
+  },
+  {
+    "id": 119,
+    "name": "Virtue",
+    "description": null
+  },
+  {
+    "id": 120,
+    "name": "Spirit",
+    "description": null
+  },
+  {
+    "id": 121,
+    "name": "Tropical Fish",
+    "description": null
+  },
+  {
+    "id": 122,
+    "name": "Dragon",
+    "description": null
+  },
+  {
+    "id": 123,
+    "name": "Bewitching Bird",
+    "description": null
+  },
+  {
+    "id": 124,
+    "name": "Unbalanced",
+    "description": null
+  },
+  {
+    "id": 125,
+    "name": "Beast Knight",
+    "description": null
+  },
+  {
+    "id": 126,
+    "name": "Toy",
+    "description": null
+  },
+  {
+    "id": 127,
+    "name": "Light Dragon",
+    "description": null
+  },
+  {
+    "id": 128,
+    "name": "Machine Dragon",
+    "description": null
+  },
+  {
+    "id": 129,
+    "name": "Avatar",
+    "description": null
+  },
+  {
+    "id": 130,
+    "name": "Sky Dragon",
+    "description": null
+  },
+  {
+    "id": 131,
+    "name": "Devil Dragon",
+    "description": null
+  },
+  {
+    "id": 132,
+    "name": "Earth Dragon",
+    "description": null
+  },
+  {
+    "id": 133,
+    "name": "Alien",
+    "description": null
+  },
+  {
+    "id": 134,
+    "name": "Enhancement",
+    "description": null
+  },
+  {
+    "id": 135,
+    "name": "Musical Instrument",
+    "description": null
+  },
+  {
+    "id": 136,
+    "name": "Braun",
+    "description": null
+  },
+  {
+    "id": 137,
+    "name": "Weapon",
+    "description": null
+  },
+  {
+    "id": 138,
+    "name": "Major",
+    "description": null
+  },
+  {
+    "id": 139,
+    "name": "Minor",
+    "description": null
+  },
+  {
+    "id": 140,
+    "name": "Marine Man",
+    "description": null
+  },
+  {
+    "id": 141,
+    "name": "Monk",
+    "description": null
+  },
+  {
+    "id": 142,
+    "name": "Tathāgata",
+    "description": null
+  },
+  {
+    "id": 143,
+    "name": "Super Major",
+    "description": null
+  },
+  {
+    "id": 144,
+    "name": "LCD",
+    "description": null
+  },
+  {
+    "id": 145,
+    "name": "Reptile Man",
+    "description": null
+  },
+  {
+    "id": 146,
+    "name": "Rock Dragon",
+    "description": null
+  },
+  {
+    "id": 147,
+    "name": "Holy Sword",
+    "description": null
+  },
+  {
+    "id": 148,
+    "name": "Armor",
+    "description": null
+  },
+  {
+    "id": 149,
+    "name": "Galaxy",
+    "description": null
+  },
+  {
+    "id": 150,
+    "name": "Magic Knight",
+    "description": null
+  },
+  {
+    "id": 151,
+    "name": "Bird Dragon",
+    "description": null
+  },
+  {
+    "id": 152,
+    "name": "Holy Mechanical Warrior",
+    "description": null
+  },
+  {
+    "id": 153,
+    "name": "Ancient Fairy",
+    "description": null
+  },
+  {
+    "id": 154,
+    "name": "Principality",
+    "description": null
+  }
+]

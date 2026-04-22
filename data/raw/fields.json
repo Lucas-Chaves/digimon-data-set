@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Metal Empire",
+    "description": "Machine, cyborg, or other mechanical Digimon. Can represent cities and factories.",
+    "href": "https://digi-api.com/images/etc/fields/Metal_Empire.png"
+  },
+  {
+    "id": 2,
+    "name": "Nature Spirits",
+    "description": "Generic monsters and beasts. Also represents grasslands and canyons.",
+    "href": "https://digi-api.com/images/etc/fields/Nature_Spirits.png"
+  },
+  {
+    "id": 3,
+    "name": "Nightmare Soldiers",
+    "description": "Darkness or spirit based Digimon, or Digimon based on traditional \"Halloween\" monsters like vampires, werewolves, or Japanese youkai and demons. Can represent haunted or cursed areas.",
+    "href": "https://digi-api.com/images/etc/fields/Nightmare_Soldiers.png"
+  },
+  {
+    "id": 4,
+    "name": "Unknown",
+    "description": "Mutant, unusual, or strange Digimon. Can represent junkyards and other strange places.",
+    "href": "https://digi-api.com/images/etc/fields/Unknown.png"
+  },
+  {
+    "id": 5,
+    "name": "Dragon's Roar",
+    "description": "Draconic, reptile, or fire-related Digimon.",
+    "href": "https://digi-api.com/images/etc/fields/Dragon's_Roar.png"
+  },
+  {
+    "id": 6,
+    "name": "Dark Area",
+    "description": "Villainous, demonic, terrifying, evil Digimon. Can represent the Dark Area of the Digital World.",
+    "href": "https://digi-api.com/images/etc/fields/Dark_Area.png"
+  },
+  {
+    "id": 7,
+    "name": "Wind Guardians",
+    "description": "Flying, air, or plant based Digimon. Can represent forests and the sky.",
+    "href": "https://digi-api.com/images/etc/fields/Wind_Guardians.png"
+  },
+  {
+    "id": 8,
+    "name": "Deep Savers",
+    "description": "Aquatic or ice-related Digimon. Can represent the ocean or arctic.",
+    "href": "https://digi-api.com/images/etc/fields/Deep_Savers.png"
+  },
+  {
+    "id": 9,
+    "name": "Virus Busters",
+    "description": "Heroic or angelic Digimon, often includes main characters from the anime or manga. Can represent the sky or heavens.",
+    "href": "https://digi-api.com/images/etc/fields/Virus_Busters.png"
+  },
+  {
+    "id": 10,
+    "name": "Jungle Troopers",
+    "description": "Plant or Insect based Digimon.",
+    "href": "https://digi-api.com/images/etc/fields/Jungle_Troopers.png"
+  }
+]
