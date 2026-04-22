@@ -1,79 +1,101 @@
-# Digimon Data Processing Project
+# Digimon Data Set
 
-## Overview
-This project focuses on extracting, processing, and storing data related to Digimon. The data will be extracted from JSON files, processed to ensure consistency and usability, and finally stored in a PostgreSQL database for further analysis and usage.
+Projeto para extrair dados da Digi-API, salvar arquivos brutos em JSON, transformar uma amostra em CSV e carregar tudo em um banco PostgreSQL com relacionamentos.
 
-## Project Structure
+## Estrutura do projeto
 ```
 .
-├── digimon_data.ipynb       # Jupyter Notebook for data processing
-├── data/                    # Directory containing raw data files
-│   ├── raw/                 # Subdirectory with raw JSON files
-│   │   ├── attributes.json  # Attributes data
-│   │   ├── digimons.json    # Digimon data
-│   │   ├── fields.json      # Fields data
-│   │   ├── levels.json      # Levels data
-│   │   ├── skills.json      # Skills data
-│   │   └── types.json       # Types data
+├── digimon_data.ipynb
+├── requirements.txt
+└── data/
+    ├── raw/
+    │   ├── attributes.json
+    │   ├── digimons.json
+    │   ├── fields.json
+    │   ├── levels.json
+    │   ├── skills.json
+    │   └── types.json
+    └── processed/
+        └── digimons.csv
 ```
 
-## Workflow
-1. **Data Extraction**:
-   - The raw data is stored in JSON files located in the `data/raw/` directory.
-   - These files contain information about Digimon attributes, levels, skills, types, and more.
+## Requisitos
+- Python 3.10+
+- PostgreSQL em execucao
+- Dependencias Python:
+  - requests
+  - pandas
+  - psycopg2-binary
 
-2. **Data Processing**:
-   - The data will be processed using Python in the Jupyter Notebook `digimon_data.ipynb`.
-   - Processing includes cleaning, transforming, and ensuring the data is ready for database insertion.
+Instalacao:
+```bash
+pip install -r requirements.txt
+```
 
-3. **Data Storage**:
-   - The processed data will be stored in a PostgreSQL database.
-   - PostgreSQL is chosen for its robustness and ability to handle structured data efficiently.
+## Configuracao do banco
+As celulas do notebook usam estas variaveis de ambiente:
 
-## Requirements
-To run this project, you need the following:
+- `PGHOST` (padrao: `localhost`)
+- `PGPORT` (padrao: `5432`)
+- `PGDATABASE` (padrao: `digimon_db`)
+- `PGUSER` (padrao: `postgres`)
+- `PGPASSWORD` (sem padrao)
+- `PGMAINTENANCE_DB` (padrao: `postgres`, usada para criar `PGDATABASE` quando necessario)
 
-- Python 3.8 or higher
-- PostgreSQL database
-- Required Python libraries (listed in `requirements.txt` if available)
+Exemplo no PowerShell:
+```powershell
+$env:PGHOST="localhost"
+$env:PGPORT="5432"
+$env:PGDATABASE="digimon_db"
+$env:PGUSER="postgres"
+$env:PGPASSWORD="SUA_SENHA"
+```
 
-## How to Run
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   ```
+Se `PGPASSWORD` nao estiver definida, o notebook solicita a senha interativamente.
 
-2. Navigate to the project directory:
-   ```bash
-   cd digimon-data-set
-   ```
+## Fluxo no notebook
+Execute as celulas nesta ordem:
 
-3. Install the required Python libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
+1. Importacoes e funcoes utilitarias.
+2. Extracao da API para `data/raw/`:
+   - attribute
+   - field
+   - level
+   - type
+   - skill
+   - digimon
+3. Transformacao para `data/processed/digimons.csv`.
+4. Carga no PostgreSQL:
+   - cria o banco automaticamente se nao existir
+   - cria tabelas lookup e tabela principal `digimons`
+   - cria tabelas de relacionamento:
+     - `digimon_levels`
+     - `digimon_types`
+     - `digimon_attributes`
+     - `digimon_fields`
+     - `digimon_skills`
+     - `digimon_prior_evolutions`
+     - `digimon_next_evolutions`
 
-4. Open the Jupyter Notebook:
-   ```bash
-   jupyter notebook digimon_data.ipynb
-   ```
+## Consultas uteis
+Para ver apenas dados da tabela principal:
+```sql
+SELECT d.*
+FROM public.digimons AS d
+ORDER BY d.id
+LIMIT 5;
+```
 
-5. Follow the steps in the notebook to process the data and insert it into the PostgreSQL database.
+Para ver Digimon com relacionamentos, use JOIN/AGGREGATE (ja existe celula de validacao no notebook com exemplo pronto).
 
-## Database Schema
-The PostgreSQL database will include the following tables:
+## Solucao de problemas
+- Erro `no password supplied`:
+  - defina `PGPASSWORD` ou informe a senha quando o notebook solicitar.
 
-- **Digimons**: Stores information about each Digimon.
-- **Attributes**: Stores attribute data.
-- **Levels**: Stores level data.
-- **Skills**: Stores skill data.
-- **Types**: Stores type data.
-- **Fields**: Stores field data.
+- Erro `database "digimon_db" does not exist`:
+  - a celula de carga tenta criar automaticamente o banco usando `PGMAINTENANCE_DB`.
+  - confirme se o usuario tem permissao para `CREATE DATABASE`.
 
-## Future Enhancements
-- Add data visualization for better insights.
-- Automate the data extraction and processing pipeline.
-- Integrate an API for real-time data access.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+- Tabela relacional vazia:
+  - execute novamente a extracao da API antes da carga.
+  - confirme se os arquivos em `data/raw/` foram atualizados.
